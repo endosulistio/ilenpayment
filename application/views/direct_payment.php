@@ -14,7 +14,6 @@
 
         <?php
             $pesanan = $this->session->userdata['order_sess'];
-            $gamedta = $this->session->userdata['data_game'];
         ?>
 
         <div class="p-5">
