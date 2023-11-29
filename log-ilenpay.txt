@@ -1,0 +1,13 @@
+{
+  "data": {
+    "hash": "e8d51bbe59f7689f82b3897a87f1e17829187391",
+    "reff_id": "trx68164endo_tes",
+    "payment": "telkomsel",
+    "rate": "0.80",
+    "nominal": "15000",
+    "total_tf": "20000",
+    "sender" : "6281234567898",
+    "status": "PAID"
+    "saldo_ahir": "576546"
+  }
+}
