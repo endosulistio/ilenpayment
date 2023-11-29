@@ -87,6 +87,7 @@ class Pesanan extends CI_Controller {
                     'nominal'   => $produk[$this->input->post('produk')]
                 )
             );
+            if(empty($total_tf->data->total_tf)) exit('Tidak dapat terhubung ke ilenpay. pastinkan api_key dan api_user benar.');
             $data['refid'] = 'il'.random_string('alnum', 16);
             $data['hargadm'] = $produk[$this->input->post('produk')];
             $data['ilenpay'] = $total_tf->data;
